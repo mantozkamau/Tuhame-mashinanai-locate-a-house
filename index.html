@@ -7,19 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>tuhame mashinani</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"> </script>
 </head>
 <body>
     <header>
         
 <nav>
-    <ul>
-        <li><a href="#home">HOME</a href></li>
+    <div class="topnav">
+     <ul>
+        <li><a href="#home">home</a></li>
             <li><a href="#about">about us</a href></li>
-              <li><a href="#services">our services</a href></li>
-                <li><a href="#stories">our stories</a href></li>
-        
-    </ul>
-</nav>
+              <li><a href="#services">our services</a</li>
+                <li><a href="#stories">our stories</a</li>
+                  
+     </ul>
+      </div>
+    <div class="container">
+        <form id="form_id" method="post" name="myform">
+            <label>User Name :</label>
+            <input type="text" name="username" id="username" required/>
+            <label>Password :</label>
+            <input type="password" name="password" id="password" required/>
+            <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+        <!-- <form>
+            <input type="text" name="userId" placeholder="username" required>
+            <input  type="password" name="pwd" placeholder="password" required>
+            <button type="submit">log in</button>
+        </form> -->
+    </div>
+
+
     
     </header>
     <!--home here-->
@@ -27,6 +46,8 @@
     <!--about-->
 
     <!--services-->
+
+    <!--our stories-->
 
 
     <!--footer-->
@@ -38,17 +59,11 @@
 <p><strong>Street</strong>:Koinange</p>
 <p><strong>Building</strong>:M.K.U towers</p>
 </div>
-<div class="top">
-<h4>FOLLOW US ON;</h4>
-
-
-<ul>
-
-<li><a href="https://facebook.com">FACEBOOK</a></li>
-<li><a href="https://youtube.com">YOUTUBE</a></li>
-<li><a href="https://instagram.com">INSTAGRAM</a></li>
-<li><a href="https://twitter.com">TWITTER</a></li>
-</ul>
+<div class="icons">
+    <h4>Follow us on;</h4>
+<a href="https://facebook.com" class="fa fa-facebook"></a>
+<a href="https://twitter.com" class="fa fa-twitter"></a>
+<a href="https://youtube.com" class="fa fa-youtube"></a>
 </div>
 </footer>
 </body>
