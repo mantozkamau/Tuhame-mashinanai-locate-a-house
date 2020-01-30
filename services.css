@@ -1,3 +1,6 @@
+*{
+    overflow:;
+}
 .navbar a {
     color: #040116;
     text-align: center;
@@ -12,7 +15,7 @@
     text-align: center;
     font-size: 60px;
     background-color: whitesmoke;
-    display: block;r
+    display: block;
  }
 
 .navbar a:hover {
@@ -39,15 +42,19 @@ font-size: xx-large;
 p{
     font-size: 20px;
 }
+.service{
+display: flex;
+flex-direction: row;
+}
+
 img{
-    width:380px;
-    height:270px;
-    background-color: transparent;
-    margin-right: 50%;
-    overflow: hidden;
+    width:420px;
+    height:400px;
+    flex-direction: row;
+
 
     
-
+    
 }
 h3{
     color: red;
@@ -58,6 +65,11 @@ h3{
     height: 200px;
     margin-left: 50%;
 }
+/* .soma{
+    width: 350px;
+    height: 200px;
+    margin-left: 60%;  
+} */
 nav{
     text-align: center;
 }
@@ -67,4 +79,7 @@ h2{
 a{
     color: red;
     font-size: x-large; 
+}
+.top li{
+    list-style: none;
 }
