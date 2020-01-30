@@ -1,4 +1,4 @@
-body{
+ body{
     background-color: white;
 }
 h1{
@@ -28,8 +28,7 @@ h1{
 .video {
     padding-left: 20%;
     border-radius: 20%;
-    padding-top: 0px;
-
+    padding-top: 0px; 
 }
 #abso{
     font-size: 30px;
@@ -47,7 +46,7 @@ h1{
     padding-bottom: 20%;
 }
 #tryy{
-    padding: 10px;
+    padding: 20px;
     font-size: 30px;
 }
 a{ 
@@ -60,3 +59,4 @@ a{
 #end{
     font-size:30px;
 }
+
