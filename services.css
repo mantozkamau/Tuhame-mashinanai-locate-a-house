@@ -1,6 +1,4 @@
-*{
-    overflow:;
-}
+
 .navbar a {
     color: #040116;
     text-align: center;
@@ -52,9 +50,6 @@ img{
     height:400px;
     flex-direction: row;
 
-
-    
-    
 }
 h3{
     color: red;
@@ -65,11 +60,7 @@ h3{
     height: 200px;
     margin-left: 50%;
 }
-/* .soma{
-    width: 350px;
-    height: 200px;
-    margin-left: 60%;  
-} */
+
 nav{
     text-align: center;
 }
