@@ -50,14 +50,14 @@ nav li{
    padding-top: 15px;
    /* padding-bottom: 30px; */
 
-}
+
 nav a{
     text-decoration: none;
 
 }
 nav a:hover{
     background-color:lightsalmon;
-} */
+} 
 .container{
     text-align: end;
     padding-top: 0px;
