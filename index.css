@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 
 .Slideshow-container{
     max-width:1000px;
