@@ -22,6 +22,10 @@ header{
   background-color:maroon;
 }
 @media screen and (max-width: 500px)
+{
+
+}
+
   .navbar a {
     float: none;
     display: block;
@@ -40,7 +44,7 @@ nav li{
  margin-right: 40px;
  padding-top: 15px;
  /* padding-bottom: 30px; */
-}
+
 nav a{
   text-decoration: none;
 }
