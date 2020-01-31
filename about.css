@@ -1,0 +1,480 @@
+
+*{
+    margin:0;
+    padding: 0;
+    transition: 0.7s ease-in-out;
+  }
+  
+  .slides{
+    overflow: hidden;
+    height: 650px;
+    max-height: 100%;
+  }
+  .slides figure div{
+    width:20%;
+    float: left;
+  }
+  .slides figure img{
+    width:100%;
+    float: left;
+    height: 650px;
+    max-height:100%;
+  }
+  .test{
+    height: 650px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+  }
+  .slides figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slidy infinite;
+  }
+  .content p{
+    z-index: 1000;
+    position:absolute;
+    text-align: center;
+    width:20%;
+    padding:100px;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    font-size: 5em;
+    padding-top: 200px;
+    padding-left: 15px;
+  }
+  span{
+    font-size: 0.5em;
+    font-family: 'Delius', cursive;
+  }
+  .content{
+    float:left;
+    width:25%;
+  }
+  
+  /* The arrow. Keyframes animate it. */
+  .arrow{
+    position: absolute;
+    margin-top: -100px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50);
+    color: White;
+    font-size: 3em;
+    font-weight: 900;
+    animation: 0.2s change infinite;
+  }
+  
+  @keyframes change {
+    0%{
+      margin-top: -90px;
+    }
+    50%{
+      margin-bottom: -110px;
+      text-shadow: 0 0 10px black;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  header{
+    background-color: black;
+    width:100%;
+  
+  }
+  header img{
+    height: 70px;
+  }
+  nav{
+    float: right;
+    margin-top: 28px;
+  }
+  nav>ul>li{
+    display:inline;
+    margin-right: 30px;
+   
+    
+    
+  
+  }
+  nav>ul>li>a{
+    text-decoration:none;
+  }
+  nav>ul>li>a:hover{
+    color: rgb(253,192,13);;
+  }
+  
+  .form{
+    z-index: 1;
+    background-position: relative;
+    background: rgba(124, 120, 6,0.5);
+    max-width: 350px;
+    padding:30px;
+    margin:0 auto 100px;
+    text-align: center;
+  
+  }
+  .form input{
+    outline: 1;
+    width: 100%;
+    border: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing:border-box;
+    background-color:#f2f2f2;
+  }
+  .form button{
+    background-color: rgb(253,192,13);;
+    color: #ffffff;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .form button:hover, .form button:active{
+    background-color: rgb(10, 53, 8);
+  
+  }
+  .form .message a{
+    text-decoration: none;
+  }
+  
+  
+  
+  footer>p{
+    float:left;
+  }
+  #contacts-form {
+    
+    width:700px;
+    z-index: 1;
+    background-position: relative;
+    padding:30px;
+    margin:0 auto 100px;
+    margin-top: 1%;
+   
+    /* text-align: center; */
+  }
+  #contacts-form input{
+    outline: 1;
+    width: 100%;
+    border: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing:border-box;
+    background-color:#f2f2f2;
+  }
+  #contacts-form button{
+    background-color: rgb(253,192,13);;
+    color: #ffffff;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    border: 0;
+  }
+  .image img{
+    width: 100%;
+  }
+  .image h1,.image h4{
+    text-align: center;
+    color: rgb(253,192,13);;
+  }
+  .image h4{
+    font-style: italic;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+  
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 30px;
+    margin-top: -60px;
+  }
+  main>div{
+    margin-right:40px;
+    background-color: rgba(34, 145, 17, 0.6);
+    flex-grow: 1;
+    /* box-sizing: border-box; */
+    width: 400px;
+    padding: 20px;
+    padding-top: 10px;
+  
+  }
+  section img{
+    width:250px;
+    height: 200px
+  }
+  section div{
+    width:300px;
+    margin-left: 40px;
+  }
+  
+  .one{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 30px;
+  }
+  .two{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 30px;
+  }
+  .three{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 30px;
+  }
+  
+  .hire{
+    height: 100%
+  }
+  .hiring-form{
+    margin-bottom: 30px;
+  }
+  #hiring-form {
+    width:500px;
+    z-index: 1;
+    background-position: relative;
+    padding-bottom:10px;
+    margin: 0 auto 0;
+    /* text-align: cente1 */
+  }
+  #hiring-form input{
+    outline: 1;
+    width: 100%;
+    border: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing:border-box;
+    background-color:#f2f2f2;
+  }
+  .hiring-form button{
+    background-color: rgb(253,192,13);;
+    color: #ffffff;
+    width: 40%;
+    padding: 15px;
+    cursor: pointer;
+    border: 0;
+    margin-left: 385px;
+    margin-top: 20px;
+  
+  }
+  .hire-title{
+    text-align: center;
+    margin: 30px;
+  }
+  #radio{
+    text-align: center;
+    /* margin-left: 600px;
+    margin-right: 600px; */
+    /* padding-top: 40px; */
+    /* margin: 0 auto 0; */
+    text-align: left;
+    margin-left: 390px;
+  
+  }
+  h2{
+    color: rgb(253,192,13);;
+    /* text-align: center; */
+  }
+  
+  .shopping{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .shopping img{
+    width: 100%;
+  }
+  .wrap-shopping{
+    width: 100%;
+    position:relative;
+    margin-top: -59%;
+    margin-bottom: 41.6%;
+  }
+  
+  .wrap-shopping p{
+    font-size: 3em;
+    font-family: 'lobster',cursive;
+    color: rgb(253,192,13);;
+    margin-right: 600px;
+    font-style: italic;
+  }
+  .copy p{
+  
+  text-align: center;
+  color:black;
+  font-size: small;
+  margin-top: 2px;
+  }
+  
+  
+  .team div{
+    width: 350px;
+    height:300px;
+  }
+  .team img{
+    width:250px;
+    height:200px;
+  }
+  .team{
+    display: flex;
+    justify-content: space-around;
+  }
+  .services{
+    width: 60%;
+    margin-right:100px;
+    margin-left: 100px;
+    text-align: center;
+  
+  }
+  @media only screen and (max-width:500px){
+    p,li{
+      font-size: 20px;
+    }
+  }
+  
+  .services img{
+    width:300px;
+    height: 250px;
+  }
+  /* .hiring img{
+    margin-left: 15%;
+  } */
+  .services div{
+    margin-bottom: 60px;
+  }
+  
+  .payment div{
+    width: 300px;
+    height:250px;
+  }
+  .payment img{
+    width: 250px;
+    height:200px;
+  }
+  .payment{
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-media>ul>li{
+    margin-right:20px;
+    display: inline;
+  }
+  .social-media{
+    float: right;
+    margin-top: 0;
+  }
+  
+  
+  .social-media>ul>li>a{
+    text-decoration:none;
+  
+  }
+  .social-media>ul>li>a:hover{
+    color: black;
+  }
+  a{
+    color: grey;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  .social-media>ul>li>a{
+    color:rgb(253,192,13);;
+  }
+  .three a{
+    color: rgb(253,192,13);;
+    text-decoration: none;
+  }
+  .three a:hover{
+    color: black;
+  
+  }
+  .two a{
+    color: rgb(253,192,13);;
+    text-decoration: none;
+  }
+  .two a:hover{
+    color: black;
+  
+  }
+  .one a{
+    color: rgb(253,192,13);;
+    text-decoration: none;
+  }
+  .one a:hover{
+    color: black;
+  }
+  
+  p,li{
+    font-size: 1.2em;
+  }
+  .aboutus p{
+    text-align: center;
+  }
+  #about{
+    padding-left:30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'News Cycle', sans-serif;
+  
+  }
+  #services{
+    padding-left:30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #service_provider{
+    padding-left:30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #contact{
+    padding-left:30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .processvalues h3{
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(253,192,13);
+  }
+  #team h3{
+    text-align: center;
+    color: rgb(253,192,13);
+    font-size: 1.4em;
+  
+  }
+  .processvalues{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .processvalues>div{
+    width:30%;
+    height: 20%;
+    background-color: rgb(253,192,13);
+    padding: 30px;
+  }
+  
