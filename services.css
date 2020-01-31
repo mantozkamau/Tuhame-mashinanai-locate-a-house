@@ -1,15 +1,8 @@
-header{
-    background-color:lightblue;
-    height: 80px;
-}
-
 .navbar {
     width: 100%;
     background-color: #555;
     overflow: auto;
-  }
-  
-  
+}
   .navbar a {
     float: left;
     text-align: center;
@@ -18,19 +11,13 @@ header{
     text-decoration: none;
     font-size: 17px;
   }
-  
-  
   .navbar a:hover {
     background-color: #000;
   }
-  
-  
   .active {
     background-color:maroon;
   }
-  
-
-  @media screen and (max-width: 500px) 
+  @media screen and (max-width: 500px)
     .navbar a {
       float: none;
       display: block;
@@ -38,45 +25,18 @@ header{
   .container{
       text-align: right;
       padding-top: 30px;
-  }
-
-  
-/* }
-nav{
-    text-align: left; */
-/* }
-nav li{
-   text-transform: uppercase; 
-   display: inline-block;
-   margin-right: 40px;
-   padding-top: 15px;
-   /* padding-bottom: 30px; */
-
-}
-nav a{
-    text-decoration: none;
-
-}
-nav a:hover{
-    background-color:lightsalmon;
-} */
-.container{
-    text-align: end;
-    padding-top: 0px;
-    padding-bottom: 30px;
-}
-
-footer{
+  }  
+  footer{
     background-color:dimgray;
     height: 100%;
     margin-bottom: 0px;
+
 }
 .top{
     text-align: center;
 }
 footer ul{
     list-style: none;
-
 }
 footer li{
     display: inline-block;
@@ -86,10 +46,8 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
- background-color: lightcoral;   
+ background-color: lightcoral;
 }
-
-
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -100,20 +58,15 @@ footer a:hover{
   .contact{
       padding-top: 0px;
   }
-  
-  
   .fa:hover {
     opacity: 0.7;
   }
   
-  
-  /* Facebook */
   .fa-facebook {
     background: #3B5998;
     color: white;
   }
   
-  /* Twitter */
   .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -130,3 +83,72 @@ footer a:hover{
       text-align: center;
     margin-bottom:200px;
   }
+ 
+ .tony a {
+    color: #040116;
+    text-align: center;
+    font-size: 55px;
+    color: green;
+} 
+
+ .tony {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+    font-size: 60px;
+    background-color: whitesmoke;
+    display: block;
+ } 
+
+  .tony a:hover {
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+}  
+
+
+  h1 {
+    color: rgb(44, 163, 44);
+    margin-left: 0%;
+    font-size: xx-large;
+    text-align: center;
+}
+div {
+    background-color:transparent;
+    margin: 50px;
+    margin-right: 10%; 
+}
+ th{
+font-size: xx-large;
+}
+p{
+    font-size: 20px;
+}
+.service{
+ display: flex; 
+flex-direction: row; 
+} 
+
+   img{
+    width:420px;
+    height:400px;
+    flex-direction: row;
+
+} 
+h3{
+    color: red;
+    font-size: x-large;
+}
+.top{
+    width: 350px;
+    height: 200px;
+    margin-left: 50%;
+}
+
+nav{
+    text-align: center;
+}
+h2{
+    color:green;
+}     
